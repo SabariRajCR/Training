@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44259" started-at="2019-07-29T08:17:55Z" finished-at="2019-07-29T08:18:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44259" started-at="2019-07-29T08:17:55Z" finished-at="2019-07-29T08:18:39Z">
+      <class name="week5.day1.assignment.Test.Annotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2019-07-29T13:47:55Z" finished-at="2019-07-29T13:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-07-29T13:47:55Z" finished-at="2019-07-29T13:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-07-29T13:47:55Z" finished-at="2019-07-29T13:47:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="login()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="login" is-config="true" duration-ms="41632" started-at="2019-07-29T13:47:55Z" finished-at="2019-07-29T13:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-29T13:48:36Z" finished-at="2019-07-29T13:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="test2" duration-ms="525" started-at="2019-07-29T13:48:36Z" finished-at="2019-07-29T13:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-29T13:48:37Z" finished-at="2019-07-29T13:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="close" is-config="true" duration-ms="2091" started-at="2019-07-29T13:48:37Z" finished-at="2019-07-29T13:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-07-29T13:48:39Z" finished-at="2019-07-29T13:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-07-29T13:48:39Z" finished-at="2019-07-29T13:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:week5.day1.assignment.Test.Annotations@3ac3fd8b]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-07-29T13:48:39Z" finished-at="2019-07-29T13:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- week5.day1.assignment.Test.Annotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
