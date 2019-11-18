@@ -6,12 +6,13 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
 
 public class ExcelUtil {
-
-	public static Object[][] readExcelData(String fileName) throws IOException {
+	@Test
+	public static Object[][] readExcelData(String Filename) throws IOException {
 		XSSFWorkbook wbook = 
-				new XSSFWorkbook("./data/"+fileName+".xlsx");
+				new XSSFWorkbook("./data/"+Filename+".xlsx");
 		XSSFSheet sheet = wbook.getSheetAt(0);
 		int rowNum = sheet.getLastRowNum();
 		short cellNum = sheet.getRow(0).getLastCellNum();
@@ -22,7 +23,7 @@ public class ExcelUtil {
 				XSSFCell cell = row.getCell(i);
 				String value = cell.getStringCellValue();
 				data[j-1][i] = value; 
-//				System.out.println(value);
+			   System.out.println(value);
 			} 
 		}
 		wbook.close();
